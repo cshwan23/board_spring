@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<license version="1.1">
+	<product>
+		<name>nexacro&#32;platform</name>
+		<version>17</version>
+		<function>Runtime,WebBrowser</function>
+	</product>
+	<customer>
+		<name>TOBESOFT</name>
+		<coreCount>0</coreCount>
+		<ipAddress>0.0.0.0</ipAddress>
+		<targetPlatform>Windows,WindowsRT</targetPlatform>
+	</customer>
+	<date>
+		<activation>2019-05-01</activation>
+		<term unit="month">24</term>
+	</date>
+	<key>E5NPMN2GQQ6DT6DQ5BVG6JBRP86P9Z9S9</key>
+</license>
+
+

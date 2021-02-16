@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+
+/*--------------------------------------------------------------------------*/
+body,form,td,th,pre{
+	font-size:9pt;
+	color:black;
+	line-height:160%;
+	font-family: 굴림, tahoma, 돋움, verdana; 
+}
+/*--------------------------------------------------------------------------*/
+input{
+	font-size:9pt;
+	color:black;
+	font-family: 굴림, tahoma, 돋움, verdana; 
+	height:20px;
+}
+a:link{tet-decoration:none;color:#696969}
+a:hover{tet-decoration:none;color:#66ccff}
+a:visited{tet-decoration:none;color:#330066}
+/*--------------------------------------------------------------------------*/
+/* <table class="tbcss1"> ~ </table> 안의 테이블에 가로, 세로 선이 단일선으로 보이기. */
+/* 경계선 색상은 직접 table 태그에 직접 설정. */
+/*--------------------------------------------------------------------------*/
+.tbcss1, .tbcss1 td, .tbcss1 th{
+	border-collapse:collapse;
+	border:1px solid black; /* padding:5; */
+	font_size: 9pt;
+	font-family: tahoma, 굴림, 돋움, verdana; 
+}
+/*--------------------------------------------------------------------------*/
+/* <table class="tbcss2"> ~ </table> 안의 가로선은 단일선으로 보이고 세로 선으 안보이기. */
+/* 경계선 색상은 직접 table 태그에 직접 설정. */
+/*--------------------------------------------------------------------------*/
+.tbcss2, .tbcss2 td, .tbcss2 th{
+	/* border-spacing:0;*/
+	border-collapse:collapse;
+	border-top:collapse;
+	border-bottom:collapse;
+	border-left:collapse;
+	border-right:collapse;
+	font_size: 9pt;
+	font-family: tahoma, 굴림, 돋움, verdana; 
+}
+
+
+
+
+
+
+
+
+
+
+
